@@ -1,7 +1,7 @@
 # ML-Based Cross-Sectional Equity Ranking
 
 An implementation-focused academic project for monthly stock ranking and portfolio
-evaluation. The checked-in evaluation panel covers 19 stocks from February 2016 through
+evaluation. The  checked-in evaluation panel covers 19 stocks from February 2016 through
 November 2024.
 
 ## Implemented pipeline
