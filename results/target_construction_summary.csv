@@ -1,0 +1,4 @@
+Split,Months (Query Groups),Stock-Months,"Pairwise Comparisons C(19,2)/mo",Excess Return Mean (%),Excess Return Std (%),CS Percentile Range,LTR Relevance Grades
+Train (Feb 2016 – Dec 2020),59,1121,10089,1.43,8.869,"[0.00, 1.00]",0..4 (Train Quantile & CS Quintile) / 0..18 (Ordinal)
+Validation (Jan 2021 – Jun 2022),18,342,3078,1.674,8.268,"[0.00, 1.00]",0..4 (Train Quantile & CS Quintile) / 0..18 (Ordinal)
+Test (Jul 2022 – Nov 2024),29,551,4959,0.795,6.014,"[0.00, 1.00]",0..4 (Train Quantile & CS Quintile) / 0..18 (Ordinal)

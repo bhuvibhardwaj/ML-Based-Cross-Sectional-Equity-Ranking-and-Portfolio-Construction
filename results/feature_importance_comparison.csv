@@ -1,0 +1,14 @@
+Feature,Category,Formula,Window,Ridge_Std_Coefficient,Ridge_Normalized_Importance,XGB_Regression_Gain_Importance,XGB_LTR_Pairwise_Gain_Importance,Mean_Importance_Across_Models
+VOL_12M,Volatility,"sqrt(252) * std(r_{i, d}, 252)",252 trading days <= t,0.00481,0.2327,0.1216,0.0675,0.1406
+VOL_3M,Volatility,"sqrt(252) * std(r_{i, d}, 63)",63 trading days <= t,0.0033,0.16,0.1266,0.0932,0.1266
+MA_RATIO_50_200,Technical,"SMA_50(P_{i, t}) / SMA_200(P_{i, t}) - 1",50d vs 200d <= t,-0.00292,0.1413,0.0926,0.071,0.1016
+MAX_DD_12M,Risk,"min_{d in [t-252, t]} (P_{i, d} / max_{s <= d} P_{i, s} - 1)",252 trading days <= t,-0.00279,0.1352,0.061,0.072,0.0894
+REV_1,Reversal,"P_{i, t} / P_{i, t-1} - 1",Month t-1 to t,-0.00215,0.104,0.0654,0.0797,0.083
+VOL_SHOCK,Liquidity,"mean(log(1+V), 21) - mean(log(1+V), 126)",21d vs 126d <= t,0.00134,0.0649,0.0396,0.0916,0.0654
+TURN_1M,Liquidity,"mean(log(1 + Volume_{i, d}), 21)",21 trading days <= t,-0.00084,0.0409,0.0687,0.0785,0.0627
+SHARPE_12M,Risk-Adjusted,"(252 * mean(r_{i, d}) - r_f) / VOL_12M",252 trading days <= t,-0.00074,0.0357,0.0739,0.0781,0.0626
+MOM_12_1,Momentum,"P_{i, t-1} / P_{i, t-13} - 1",Months t-13 to t-1,-0.00049,0.0236,0.0633,0.0886,0.0585
+MOM_3_1,Momentum,"P_{i, t-1} / P_{i, t-4} - 1",Months t-4 to t-1,-0.00072,0.0349,0.0626,0.0744,0.0573
+BETA_12M,Risk,"Cov(r_{i, d}, r_{m, d}) / Var(r_{m, d})",252 trading days <= t,-0.0004,0.0193,0.0715,0.0722,0.0544
+MOM_6_1,Momentum,"P_{i, t-1} / P_{i, t-7} - 1",Months t-7 to t-1,-0.00014,0.0068,0.0806,0.0607,0.0494
+RSI_14,Technical,100 - 100 / (1 + RS_14),14 trading days <= t,-1e-05,0.0006,0.0726,0.0723,0.0485

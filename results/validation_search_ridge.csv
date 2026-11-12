@@ -1,0 +1,9 @@
+Model,Config,alpha,Val_RMSE,Val_Mean_Rank_IC,Val_NDCG_at_5
+Ridge Regression,alpha=0.1,0.1,0.083336,-0.0149,0.4268
+Ridge Regression,alpha=1.0,1.0,0.083309,-0.0136,0.4204
+Ridge Regression,alpha=10.0,10.0,0.083084,-0.01,0.4258
+Ridge Regression,alpha=50.0,50.0,0.082575,0.0098,0.4435
+Ridge Regression,alpha=100.0,100.0,0.082334,0.0341,0.4402
+Ridge Regression,alpha=250.0,250.0,0.08214,0.0526,0.4434
+Ridge Regression,alpha=500.0,500.0,0.082119,0.0617,0.4616
+Ridge Regression,alpha=1000.0,1000.0,0.082186,0.0652,0.467

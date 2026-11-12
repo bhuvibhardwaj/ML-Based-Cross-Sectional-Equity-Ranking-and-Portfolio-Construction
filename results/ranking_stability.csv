@@ -1,0 +1,5 @@
+Model,Mean_Rank_Autocorr,Mean_Top5_Overlap_Fraction,Mean_Top5_Retained_Count,Implied_Monthly_Set_Turnover_Pct
+Ridge Regression,0.85,0.7714,3.86,22.86
+XGBoost Regression,0.3672,0.4286,2.14,57.14
+XGBoost Learning-to-Rank,0.3232,0.4643,2.32,53.57
+Momentum Baseline (MOM_12_1),0.8803,0.7929,3.96,20.71

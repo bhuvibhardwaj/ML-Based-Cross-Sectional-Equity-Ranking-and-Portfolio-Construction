@@ -1,0 +1,5 @@
+Model,Output_Type,Mean,Std,Mean_CrossSectional_Std,Min,P10,Median,P90,Max
+Ridge Regression,Predicted Monthly Excess Return,0.00679,0.00625,0.0051,-0.00846,-0.00079,0.00655,0.01415,0.03232
+XGBoost Regression,Predicted Monthly Excess Return,0.00819,0.00511,0.00462,-0.00636,0.00222,0.00794,0.01361,0.03932
+XGBoost Learning-to-Rank,Pairwise Margin Score (Calibrated Return RMSE=0.0653),-0.00426,0.01832,0.01711,-0.05793,-0.02714,-0.00442,0.01983,0.04966
+Momentum Baseline (MOM_12_1),Raw 12M-1M Momentum Return Signal,0.18779,0.23766,0.21587,-0.23838,-0.07819,0.15598,0.51116,1.18296

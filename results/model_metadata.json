@@ -1,0 +1,36 @@
+{
+  "Ridge Regression": {
+    "objective": "L2 Penalized Squared Error (Pointwise Regression)",
+    "best_params": {
+      "alpha": 1000.0
+    }
+  },
+  "XGBoost Regression": {
+    "objective": "reg:squarederror (Pointwise Gradient Boosted Trees)",
+    "best_params": {
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "subsample": 0.7,
+      "colsample_bytree": 0.7,
+      "reg_lambda": 15.0,
+      "min_child_weight": 10,
+      "best_iteration": 21
+    }
+  },
+  "XGBoost Learning-to-Rank": {
+    "objective": "rank:pairwise (Grouped by Formation Month qid)",
+    "best_params": {
+      "label_scheme": "train_quantile_5",
+      "label_description": "Training-Period Excess-Return Quantile Grades (0..4)",
+      "n_estimators": 50,
+      "max_depth": 2,
+      "learning_rate": 0.02,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 20.0,
+      "min_child_weight": 10,
+      "Val_Mean_Rank_IC": 0.0096,
+      "Val_NDCG_at_5": 0.4136
+    }
+  }
+}

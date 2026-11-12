@@ -1,0 +1,19 @@
+{
+  "validation": {
+    "total_rows": 2014,
+    "num_stocks": 19,
+    "num_months": 106,
+    "stocks_per_month_min": 19,
+    "stocks_per_month_max": 19,
+    "start_date": "2016-02-29",
+    "end_date": "2024-11-30",
+    "missing_values_total": 0,
+    "duplicate_date_ticker": 0
+  },
+  "limitations": [
+    "Narrow Cross-Sectional Breadth (N = 19 Stocks): Each monthly cross-section has 19 stocks. Under H0: IC_t = 0, a single month\u2019s Spearman Rank IC has approximate standard error 1/sqrt(19-2) = 0.2425. A Top-5 portfolio holds 5/19 = 26.3% of the universe.",
+    "Fixed-Universe Selection: The evaluated panel contains 19 stocks, not a point-in-time Nifty 100 universe. Selection history is not recorded in the data artifacts, so survivorship and selection bias cannot be quantified.",
+    "Price and Volume Technical Scope Only: Features are derived exclusively from daily OHLCV market data without quarterly fundamental accounting ratios.",
+    "Fixed Chronological Split: Final evaluation uses the Jul 2022\u2013Nov 2024 test window; results do not establish performance in other periods or market regimes."
+  ]
+}
